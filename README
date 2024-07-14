@@ -1,7 +1,7 @@
 This is is a water monitoring level system that uses the esp32 and an ultra-sonic sensor
 Working Principle:
 1.The ultra-sonic sensor gets the distance from the top of the tank to the level of water.
-2.The distance above is then subtracted from the full height of the tank(always constant) to determine the height of water in the tank.
+2.The distance captured in the above step is then subtracted from the full height of the tank(always constant) to determine the height of water in the tank.
 3.From the height of water I was able to deduce a mathematical formula to find the volume at different levels the water settled at.
 4.The calculations above were then pushed via wifi to an IoT app called Sinric Pro which would display the results as shown in the attached screenshots above
 5.also include are 3d drafted parts that were to make its casing for easier installation
