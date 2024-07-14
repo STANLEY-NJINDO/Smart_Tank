@@ -37,8 +37,8 @@
 #define APP_SECRET "***************************************"// blurred for security purposes lol:)
 #define DEVICE_ID  "******************************************"
 
-#define SSID       "saf_HOME"
-#define PASS       "0775862858"
+#define SSID       "**********"//insert wifi name and password here respectivley
+#define PASS       "***********"
 
 #define BAUD_RATE  115200
 #define EVENT_WAIT_TIME   10000 // send event every 60 seconds
